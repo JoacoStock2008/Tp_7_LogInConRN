@@ -6,7 +6,8 @@ const LogIn = () => {
     return(
         <View>
             <Text>Hola cómo estás?</Text>
-            <Input placeholder="Ingrese su nombre"/>
+            <Input placeholder="nombreExample@gmail.com"/>
+            <Input placeholder="**********"/>
         </View>
     )
 }
