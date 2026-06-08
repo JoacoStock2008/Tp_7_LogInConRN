@@ -5,20 +5,21 @@ const Input = ({placeholder}) => {
         <TextInput 
             style = {styles.Input} 
             placeholder = {placeholder} 
-            placeholderTextColor = '#000000'>
+            placeholderTextColor = '#000000'
+            keyboardType='email-address'>
         </TextInput>
     )
 };
 
 const styles = StyleSheet.create({
     Input: {
-        backgroundColor: '#aca7a7',
+        backgroundColor: '#ffffff',
         borderWidth: 1,
         borderColor: "#c300ff",
         borderRadius: 8,  
         padding: "3%",
-        paddingRight: "5%",
-        paddingLeft: "5%",
+        paddingRight: "15%",
+        paddingLeft: "15%",
         marginBottom: 20
     },
 })
