@@ -7,12 +7,14 @@ const LogIn = () => {
     const [name, setName] = useState('')
     const [password, setPassword] = useState('')
 
+    const handleChange = () => {
 
+    }
     return (
 
         <View>
-            <Input value={name} placeholder="nombreExample@gmail.com" />
-            <Input value={password} placeholder="**********" />
+            <Input value={name} keyboardType='email-adress' placeholder="nombreExample@gmail.com" />
+            <Input value={password} keyboardType='default' placeholder="**********" />
             <ButtonSubmit title="Ingresar" />
         </View>
 

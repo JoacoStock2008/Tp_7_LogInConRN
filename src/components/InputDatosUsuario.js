@@ -1,12 +1,12 @@
 import { TextInput, StyleSheet } from "react-native";
 
-const Input = ({placeholder}) => {
+const Input = ({placeholder}, {keyboardType}, {handleChange}) => {
     return(
         <TextInput 
             style = {styles.Input} 
             placeholder = {placeholder} 
             placeholderTextColor = '#000000'
-            keyboardType='email-address'>
+            keyboardType={keyboardType}>
         </TextInput>
     )
 };
